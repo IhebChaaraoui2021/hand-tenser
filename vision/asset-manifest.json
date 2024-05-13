@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/app-mediapipe-hands-demo/static/css/main.f3c200f4.css",
+    "main.js": "/app-mediapipe-hands-demo/static/js/main.60aec67a.js",
+    "static/js/453.6fe567bb.chunk.js": "/app-mediapipe-hands-demo/static/js/453.6fe567bb.chunk.js",
+    "index.html": "/app-mediapipe-hands-demo/index.html",
+    "model.json": "/app-mediapipe-hands-demo/tf-models/key-point-classifier-3/model.json",
+    "main.f3c200f4.css.map": "/app-mediapipe-hands-demo/static/css/main.f3c200f4.css.map",
+    "main.60aec67a.js.map": "/app-mediapipe-hands-demo/static/js/main.60aec67a.js.map",
+    "453.6fe567bb.chunk.js.map": "/app-mediapipe-hands-demo/static/js/453.6fe567bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c200f4.css",
+    "static/js/main.60aec67a.js"
+  ]
+}

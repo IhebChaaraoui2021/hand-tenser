@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TAKOLORTEST/public/trackhands-demo4/static/css/main.f3c200f4.css",
+    "main.js": "/TAKOLORTEST/public/trackhands-demo4/static/js/main.c8943ab0.js",
+    "static/js/453.6fe567bb.chunk.js": "/TAKOLORTEST/public/trackhands-demo4/static/js/453.6fe567bb.chunk.js",
+    "index.html": "/TAKOLORTEST/public/trackhands-demo4/index.html",
+    "main.f3c200f4.css.map": "/TAKOLORTEST/public/trackhands-demo4/static/css/main.f3c200f4.css.map",
+    "main.c8943ab0.js.map": "/TAKOLORTEST/public/trackhands-demo4/static/js/main.c8943ab0.js.map",
+    "453.6fe567bb.chunk.js.map": "/TAKOLORTEST/public/trackhands-demo4/static/js/453.6fe567bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c200f4.css",
+    "static/js/main.c8943ab0.js"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TAKOLORTEST/sandbox/hand/hands-demo5/static/css/main.f3c200f4.css",
+    "main.js": "/TAKOLORTEST/sandbox/hand/hands-demo5/static/js/main.c54fa3b5.js",
+    "static/js/453.6fe567bb.chunk.js": "/TAKOLORTEST/sandbox/hand/hands-demo5/static/js/453.6fe567bb.chunk.js",
+    "index.html": "/TAKOLORTEST/sandbox/hand/hands-demo5/index.html",
+    "main.f3c200f4.css.map": "/TAKOLORTEST/sandbox/hand/hands-demo5/static/css/main.f3c200f4.css.map",
+    "main.c54fa3b5.js.map": "/TAKOLORTEST/sandbox/hand/hands-demo5/static/js/main.c54fa3b5.js.map",
+    "453.6fe567bb.chunk.js.map": "/TAKOLORTEST/sandbox/hand/hands-demo5/static/js/453.6fe567bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c200f4.css",
+    "static/js/main.c54fa3b5.js"
+  ]
+}
