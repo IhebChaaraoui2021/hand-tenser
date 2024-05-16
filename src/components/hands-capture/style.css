@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    .container canvas {
+      width: 80%;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container canvas {
+      width: 60%;
+      height: auto;
+    }
+  }

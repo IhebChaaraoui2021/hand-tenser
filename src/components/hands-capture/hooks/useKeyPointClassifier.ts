@@ -65,35 +65,8 @@ function useKeyPointClassifier() {
     const handSignId = await keyPointClassifier(preProcessedLandmarkList);
     return handSignId[0];
   };
-  var fetchPromise = function(url:string) {
-    return new Promise(function(resolve, reject) {
-        fetch(url)
-                .then(response => {
-                    resolve(response);
-                }).catch(err =>{
-                    reject();
-                });
-    });
-};
-const  getData= () :any =>{
-  fetch('tf-models/key-point-classifier-2/model.json'
-  ,{
-    headers : { 
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-     }
-  }
-  )
-    .then(function(response){
-      console.log(response)
-      return response.json();
-    })
-    .then(function(myJson) {
-      console.log(myJson);
 
-      //return myJson
-    });
-}
+
 const loadModel = async () => {
   model.current = await tf.loadGraphModel(
     'https://cdn.jsdelivr.net/gh/IhebChaaraoui2021/cdn-file/model.json'

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Camera } from '@mediapipe/camera_utils';
 import {
   drawConnectors,
@@ -19,7 +19,8 @@ function useLogic() {
   const camera = useRef<Camera | null>(null);
   const canvasEl = useRef<HTMLCanvasElement | null>(null);
   const handsGesture = useRef<any[]>([]); // Define appropriate type for handsGesture array
-
+  const [cameraReady, setCameraReady] = useState(false);
+  const [modelReady, setModelReady] = useState(false);
   const { processLandmark } = useKeyPointClassifier();
 
   async function onResults(results: any) {
@@ -116,6 +117,7 @@ function useLogic() {
       minTrackingConfidence: 0.5,
     });
     hands.current.onResults(onResults);
+    setModelReady(true); // Set model ready state
   };
 
   useEffect(() => {
@@ -128,13 +130,14 @@ function useLogic() {
         height: maxVideoHeight,
       });
       camera.current.start();
+     setCameraReady(true); // Set camera ready state
     }
 
     initCamera();
     loadHands();
   }, []);
 
-  return { maxVideoHeight, maxVideoWidth, canvasEl, webcamRef };
+  return { maxVideoHeight, maxVideoWidth, canvasEl, webcamRef, cameraReady, modelReady };
 }
 
 export default useLogic;

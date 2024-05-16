@@ -2,7 +2,7 @@
 	"name": "mediapipe_hands",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://testbox.takolor.com/TAKOLORTEST/sandbox/hand/hands-demo5/",
+	"homepage": "https://testbox.takolor.com/TAKOLORTEST/sandbox/hand/hands-demo6i/",
 	"dependencies": {
 		"@emotion/css": "^11.5.0",
 		"@mediapipe/camera_utils": "^0.3.1632432234",
